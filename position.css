@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: chartreuse;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+}
+h3{
+    border: 4px solid green;
+    display:inline-block;
+}
+img{
+    display: block;
+
+}
+li{
+    display: inline-block;
+}
